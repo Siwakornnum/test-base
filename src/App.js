@@ -38,6 +38,23 @@ function App() {
             </RadioGroup>
           </FormControl>
         </div>
+
+        <div className="Questionsfield">
+          <h3 className="text"> ข้อที่ 2</h3>
+          <TextField
+            helperText=""
+            id="demo-helper-text-aligned"
+            label="Questions"
+            className="textfield"
+          />
+          <TextField
+            helperText=""
+            id="demo-helper-text-aligned"
+            label="Answers"
+            className="radiofield"
+          />  
+          
+        </div>
       </div>
     </div>
   );
