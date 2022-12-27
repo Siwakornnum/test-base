@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.text{
+  margin: 20px;
+}
+
+.container{
+  padding: 80px;
+  border: 1px solid black;
+  margin: 50px;
+  
+}
+
+.title{
+  margin : 20px;  
+  align-items: center;
+}
+
+.Questionsfield{
+  display: flex;
+  border: 1px solid black;  
+  display: flex;
+  flex-direction:column;
+} 
+
+.Questionsfield .textfield{
+  margin: 20px;
+}
+
+.Questionsfield .radiofield{
+  margin: 20px;
+}
+
+.Questionsfield .radiofield .tss {
+  margin-left: 30px;
+}
